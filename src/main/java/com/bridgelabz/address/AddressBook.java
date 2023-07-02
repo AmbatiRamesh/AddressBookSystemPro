@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class AddressBook extends Contacts {
 
-    List<Contacts> contact = new ArrayList<Contacts>();
+    ArrayList<Contacts> contact = new ArrayList<>();
     Scanner scanner = new Scanner(System.in);
     Contacts contacts = new Contacts();
 
@@ -114,6 +114,7 @@ public class AddressBook extends Contacts {
 
         }
     }
+
     public void deleteContact() {
 
         System.out.println("Enter the first name you want to delete.");
