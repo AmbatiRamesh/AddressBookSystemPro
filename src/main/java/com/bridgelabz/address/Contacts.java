@@ -86,4 +86,10 @@ public class Contacts {
     public void setPhoneNumber(long phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Contacts [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+                + ", state=" + state + ", email=" + email + ", zip=" + zip + ", phoneNumber=" + phoneNumber + "]";
+    }
 }
